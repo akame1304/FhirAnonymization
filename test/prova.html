@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caricamento e Lettura di File</title>
+    <style>
+        .select-button, .read-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="fileInput">
+    <button id="uploadButton">inserisci nel dizionario</button>
+    <div id="fileContents" style="display: none;">
+        <h2>Contenuto del File</h2>
+
+    </div>
+    <input id="textInput" type="text" placeholder="Inserisci testo">
+<input id="fileInput" type="file">
+<button id="mioPulsante" disabled>Abilitami</button>
+
+<script>
+
+
+
+
+const textInput = document.getElementById("textInput");
+const fileInput = document.getElementById("fileInput");
+const mioPulsante = document.getElementById("mioPulsante");
+
+textInput.addEventListener("input", function () {
+  // Abilita il pulsante se c'è del contenuto nel campo di input di testo
+  mioPulsante.disabled = textInput.value === "" && fileInput.files.length === 0;
+});
+
+fileInput.addEventListener("change", function () {
+  // Abilita il pulsante se viene selezionato un file
+  mioPulsante.disabled = textInput.value === "" && fileInput.files.length === 0;
+});
+</script>
+    </script>
+</body>
+</html>

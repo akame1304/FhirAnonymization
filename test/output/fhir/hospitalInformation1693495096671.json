@@ -1,0 +1,218 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [ {
+    "fullUrl": "urn:uuid:b6eeaaf7-1683-3bcb-b6ee-81ce304636ef",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "b6eeaaf7-1683-3bcb-b6ee-81ce304636ef",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 3
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "b6eeaaf7-1683-3bcb-b6ee-81ce304636ef"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "MELROSEWAKEFIELD HEALTHCARE, INC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7819793050"
+      } ],
+      "address": [ {
+        "line": [ "170 GOVERNORS AVE" ],
+        "city": "MELROSE",
+        "state": "MA",
+        "postalCode": "021763225",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|b6eeaaf7-1683-3bcb-b6ee-81ce304636ef"
+    }
+  }, {
+    "fullUrl": "urn:uuid:a76790f3-20a5-3e94-bcb6-754d6624a38b",
+    "resource": {
+      "resourceType": "Location",
+      "id": "a76790f3-20a5-3e94-bcb6-754d6624a38b",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "a76790f3-20a5-3e94-bcb6-754d6624a38b"
+      } ],
+      "status": "active",
+      "name": "MELROSEWAKEFIELD HEALTHCARE, INC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7819793050"
+      } ],
+      "address": {
+        "line": [ "170 GOVERNORS AVE" ],
+        "city": "MELROSE",
+        "state": "MA",
+        "postalCode": "021763225",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -71.064182,
+        "latitude": 42.4564323
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "b6eeaaf7-1683-3bcb-b6ee-81ce304636ef"
+        },
+        "display": "MELROSEWAKEFIELD HEALTHCARE, INC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|a76790f3-20a5-3e94-bcb6-754d6624a38b"
+    }
+  }, {
+    "fullUrl": "urn:uuid:8d5880eb-1dd8-31ea-b7c5-21709f3bb341",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "8d5880eb-1dd8-31ea-b7c5-21709f3bb341",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 10
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 5
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 1
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 6
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "8d5880eb-1dd8-31ea-b7c5-21709f3bb341"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "MELROSE INTERNAL MEDICINE ASSOC PC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7819793800"
+      } ],
+      "address": [ {
+        "line": [ "50 ROWE ST" ],
+        "city": "MELROSE",
+        "state": "MA",
+        "postalCode": "021763201",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|8d5880eb-1dd8-31ea-b7c5-21709f3bb341"
+    }
+  }, {
+    "fullUrl": "urn:uuid:94a36583-c094-3312-b728-d4a42ec39538",
+    "resource": {
+      "resourceType": "Location",
+      "id": "94a36583-c094-3312-b728-d4a42ec39538",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "94a36583-c094-3312-b728-d4a42ec39538"
+      } ],
+      "status": "active",
+      "name": "MELROSE INTERNAL MEDICINE ASSOC PC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7819793800"
+      } ],
+      "address": {
+        "line": [ "50 ROWE ST" ],
+        "city": "MELROSE",
+        "state": "MA",
+        "postalCode": "021763201",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -71.06078096379728,
+        "latitude": 42.4592093
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "8d5880eb-1dd8-31ea-b7c5-21709f3bb341"
+        },
+        "display": "MELROSE INTERNAL MEDICINE ASSOC PC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|94a36583-c094-3312-b728-d4a42ec39538"
+    }
+  }, {
+    "fullUrl": "urn:uuid:bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+    "resource": {
+      "resourceType": "Location",
+      "id": "bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+      } ],
+      "status": "active",
+      "description": "Patient's Home",
+      "mode": "kind",
+      "physicalType": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code": "ho",
+          "display": "House"
+        } ]
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+    }
+  } ]
+}

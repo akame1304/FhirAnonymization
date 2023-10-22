@@ -1,0 +1,409 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [ {
+    "fullUrl": "urn:uuid:38508743-50d1-3429-8fe2-37e42ddaf20e",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "38508743-50d1-3429-8fe2-37e42ddaf20e",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 40
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/bed-count-extension",
+        "valueInteger": 92
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "38508743-50d1-3429-8fe2-37e42ddaf20e"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "BAYSTATE FRANKLIN MEDICAL CENTER",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137730211"
+      } ],
+      "address": [ {
+        "line": [ "164 HIGH ST" ],
+        "city": "GREENFIELD",
+        "state": "MA",
+        "postalCode": "013012778",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|38508743-50d1-3429-8fe2-37e42ddaf20e"
+    }
+  }, {
+    "fullUrl": "urn:uuid:9c91b187-42e7-374f-9027-6d15228f2f93",
+    "resource": {
+      "resourceType": "Location",
+      "id": "9c91b187-42e7-374f-9027-6d15228f2f93",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "9c91b187-42e7-374f-9027-6d15228f2f93"
+      } ],
+      "status": "active",
+      "name": "BAYSTATE FRANKLIN MEDICAL CENTER",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137730211"
+      } ],
+      "address": {
+        "line": [ "164 HIGH ST" ],
+        "city": "GREENFIELD",
+        "state": "MA",
+        "postalCode": "013012778",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -72.59288632376354,
+        "latitude": 42.595268700000005
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "38508743-50d1-3429-8fe2-37e42ddaf20e"
+        },
+        "display": "BAYSTATE FRANKLIN MEDICAL CENTER"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|9c91b187-42e7-374f-9027-6d15228f2f93"
+    }
+  }, {
+    "fullUrl": "urn:uuid:93552c27-f173-385f-8849-ee56c25f638b",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "93552c27-f173-385f-8849-ee56c25f638b",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 1
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "93552c27-f173-385f-8849-ee56c25f638b"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "SOMERSET LONG TERM CARE LLC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137746318"
+      } ],
+      "address": [ {
+        "line": [ "359 HIGH ST" ],
+        "city": "GREENFIELD",
+        "state": "MA",
+        "postalCode": "013012617",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|93552c27-f173-385f-8849-ee56c25f638b"
+    }
+  }, {
+    "fullUrl": "urn:uuid:3fe11f1c-a946-3b40-b075-6b52569a4cfc",
+    "resource": {
+      "resourceType": "Location",
+      "id": "3fe11f1c-a946-3b40-b075-6b52569a4cfc",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "3fe11f1c-a946-3b40-b075-6b52569a4cfc"
+      } ],
+      "status": "active",
+      "name": "SOMERSET LONG TERM CARE LLC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137746318"
+      } ],
+      "address": {
+        "line": [ "359 HIGH ST" ],
+        "city": "GREENFIELD",
+        "state": "MA",
+        "postalCode": "013012617",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -72.58135309677492,
+        "latitude": 42.6033006
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "93552c27-f173-385f-8849-ee56c25f638b"
+        },
+        "display": "SOMERSET LONG TERM CARE LLC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|3fe11f1c-a946-3b40-b075-6b52569a4cfc"
+    }
+  }, {
+    "fullUrl": "urn:uuid:a8f1424c-00bc-3403-8db5-cd600978f3a4",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "a8f1424c-00bc-3403-8db5-cd600978f3a4",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 68
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 204
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 85
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 21
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "a8f1424c-00bc-3403-8db5-cd600978f3a4"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "CONNECTICUT RIVER INTERNISTS. LLP",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137745554"
+      } ],
+      "address": [ {
+        "line": [ "8 BURNHAM ST" ],
+        "city": "TURNERS FALLS",
+        "state": "MA",
+        "postalCode": "013761816",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|a8f1424c-00bc-3403-8db5-cd600978f3a4"
+    }
+  }, {
+    "fullUrl": "urn:uuid:a72a0057-1d67-3c42-8d8d-6413dd7f6446",
+    "resource": {
+      "resourceType": "Location",
+      "id": "a72a0057-1d67-3c42-8d8d-6413dd7f6446",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "a72a0057-1d67-3c42-8d8d-6413dd7f6446"
+      } ],
+      "status": "active",
+      "name": "CONNECTICUT RIVER INTERNISTS. LLP",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137745554"
+      } ],
+      "address": {
+        "line": [ "8 BURNHAM ST" ],
+        "city": "TURNERS FALLS",
+        "state": "MA",
+        "postalCode": "013761816",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -72.5564777,
+        "latitude": 42.6042523
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "a8f1424c-00bc-3403-8db5-cd600978f3a4"
+        },
+        "display": "CONNECTICUT RIVER INTERNISTS. LLP"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|a72a0057-1d67-3c42-8d8d-6413dd7f6446"
+    }
+  }, {
+    "fullUrl": "urn:uuid:41f66e18-8eb7-32f2-9371-7df5bf2b8d21",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "41f66e18-8eb7-32f2-9371-7df5bf2b8d21",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 2
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "41f66e18-8eb7-32f2-9371-7df5bf2b8d21"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "AMBULATORY EMPLOYEE INDUSTRIAL OCCUPATIONAL AND URGENT HEALTHCARE",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4133874556"
+      } ],
+      "address": [ {
+        "line": [ "170 UNIVERSITY DRIVE" ],
+        "city": "GREENFIELD",
+        "state": "MA",
+        "postalCode": "013011238",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|41f66e18-8eb7-32f2-9371-7df5bf2b8d21"
+    }
+  }, {
+    "fullUrl": "urn:uuid:8a77e78b-c741-3e8f-9d6a-3d2a5c1f0863",
+    "resource": {
+      "resourceType": "Location",
+      "id": "8a77e78b-c741-3e8f-9d6a-3d2a5c1f0863",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "8a77e78b-c741-3e8f-9d6a-3d2a5c1f0863"
+      } ],
+      "status": "active",
+      "name": "AMBULATORY EMPLOYEE INDUSTRIAL OCCUPATIONAL AND URGENT HEALTHCARE",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4133874556"
+      } ],
+      "address": {
+        "line": [ "170 UNIVERSITY DRIVE" ],
+        "city": "GREENFIELD",
+        "state": "MA",
+        "postalCode": "013011238",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -72.5979752,
+        "latitude": 42.6097476
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "41f66e18-8eb7-32f2-9371-7df5bf2b8d21"
+        },
+        "display": "AMBULATORY EMPLOYEE INDUSTRIAL OCCUPATIONAL AND URGENT HEALTHCARE"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|8a77e78b-c741-3e8f-9d6a-3d2a5c1f0863"
+    }
+  }, {
+    "fullUrl": "urn:uuid:bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+    "resource": {
+      "resourceType": "Location",
+      "id": "bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+      } ],
+      "status": "active",
+      "description": "Patient's Home",
+      "mode": "kind",
+      "physicalType": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code": "ho",
+          "display": "House"
+        } ]
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+    }
+  } ]
+}
